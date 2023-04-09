@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient();
+    font-size: small;
+    background: rgb(199, 42, 160);
+    background: linear-gradient(225deg, rgba(199, 42, 160, 1) 25%, rgba(19,107,221,1) 50%, rgba(0,212,225,1) 75%);
+}
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.main {
+    position: relative;
+    height: 520px;
+    width: 330px;
+    z-index: 1;
+    background: white;
+    margin-top: 50px;
+}
+h1 {
+    padding-top: 20px;
+}
+.login {
+    width: 200px;padding: 30px;
+    padding-top: 20px;
+}
+.field {
+    padding: 0;
+    position: relative;
+}   
+.icon{
+    position: absolute;
+    padding: 10px;
+}
+.input{
+    border: none;
+    border-bottom: 2px solid rgb(238, 237, 237);
+    background: none;
+    padding: 10px;
+    padding-left: 30px;
+    width: 270px;
+    transition: 0.2s;
+}
+.input:active, .input:focus, .input:hover {
+    outline: none;
+    border-bottom-color: black;
+}
+label{
+    padding-top: 10px;
+}
+button{
+    width: 270px;
+    margin-top: 40px;
+    height: 25px;
+    text-align: center;
+    background: rgb(199, 42, 160);
+    background: linear-gradient(225deg, rgba(199, 42, 160, 1) 25%, rgba(19,107,221,1) 50%, rgba(0,212,225,1) 75%);
+    color: white;
+    font-weight: 200;
+    font-size: xx-small;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.forget {
+    padding-top: 10px;
+    position: absolute;
+    padding-left: 150px;
+    font-size: small;
+    font-weight: lighter;
+    font-family: initial;
+}
+p {
+    text-align: center;
+    font-size: small;
+    font-weight: lighter !important;
+    padding-left: 20px;
+}
+.socials p{
+    font-size: xx-small;
+}
+.alternative {
+    margin-top: 150px;
+    position: relative;
+}
+.alternative p{
+    padding-bottom: 10px;
+}
+h1 {
+    text-align: center;
+}
+.iconic{
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
+}
